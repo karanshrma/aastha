@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_home_24"
+        android:padding="16dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_shopping_bag_24"
+        android:padding="16dp"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/navigation_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_store_24"
+        android:padding="16dp"
+        android:title="Marketing Plan" />
+
+    <item
+        android:id="@+id/navigation_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_delivery_dining_24"
+        android:padding="16dp"
+        android:title="Delivery Center" />
+
+    <item
+        android:id="@+id/navigation_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_message_24"
+        android:padding="16dp"
+        android:title="Message for Associate Buyer"
+         />
+
+    <item
+        android:id="@+id/navigation_downloads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_download_24"
+        android:padding="16dp"
+        android:title="Downloads" />
+
+    <!-- Add other menu items as per the image -->
+
+
+</menu>

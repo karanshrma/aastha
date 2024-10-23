@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Close Button -->
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_close_24"
+        android:contentDescription="Close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Admin Profile Title -->
+
+    <!-- Profile Image -->
+    <TextView
+        android:id="@+id/admin_profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Profile"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toEndOf="@id/close_button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/baseline_close_24"
+        android:contentDescription="Profile Image"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/admin_profile_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Edit Profile Photo Button -->
+    <Button
+        android:id="@+id/edit_profile_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile Photo"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2B3C53"
+        app:layout_constraintTop_toBottomOf="@id/profile_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Username and Email -->
+
+    <!-- View Profile Action -->
+
+    <!-- Divider -->
+
+
+    <LinearLayout
+        android:id="@+id/adminprofile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_image">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Amit Gupta"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.109"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_profile_photo_button" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amitgupta312@gmail.com"
+            android:textColor="#A6A6A6"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="288dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/view_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="View your profile"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/adminprofile"
+        app:layout_constraintWidth_default="spread" />
+
+    <!-- Actions Title -->
+
+    <!-- Add Team Member Action -->
+
+    <TextView
+        android:id="@+id/actions_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="Actions"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_profile" />
+
+    <TextView
+        android:id="@+id/add_team_member"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add a team member"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintTop_toBottomOf="@id/actions_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="spread"/>
+
+    <!-- Create New Project Action -->
+    <TextView
+        android:id="@+id/create_new_project"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create a new project"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintTop_toBottomOf="@id/add_team_member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="spread"/>
+
+    <!-- Add a New Client Action -->
+    <TextView
+        android:id="@+id/add_new_client"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add a new client"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintTop_toBottomOf="@id/create_new_project"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="spread"/>
+
+    <!-- Log Out Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#2B3C53"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/add_new_client" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/LoginMenu"
+        android:title="Login" />
+    <item
+        android:id="@+id/RegisterMenu"
+        android:title="Register" />
+
+</menu>

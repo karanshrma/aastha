@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewActivity">
+
+
+    <!-- Create New Project Action -->
+    <TextView
+        android:id="@+id/mo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="State Officer"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/add_team_member"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Divisional Officer"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mo"
+        app:layout_constraintWidth_default="spread" />
+
+    <TextView
+        android:id="@+id/create_new_project"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="District Officer"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintTop_toBottomOf="@id/add_team_member"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="spread"/>
+
+    <!-- Add a New Client Action -->
+    <TextView
+        android:id="@+id/add_new_client"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Block Officer"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintTop_toBottomOf="@id/create_new_project"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_default="spread"/>
+
+    <TextView
+        android:id="@+id/vendorInHouse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Vendor (In House)"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_new_client"
+        app:layout_constraintWidth_default="spread" />
+    <TextView
+        android:id="@+id/Employee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Employee"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vendorInHouse"
+        app:layout_constraintWidth_default="spread" />
+    <TextView
+        android:id="@+id/Consumer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/baseline_arrow_forward_24"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="Consumer"
+        android:textColor="#000000"
+        app:drawableTint="#A6A6A6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Employee"
+        app:layout_constraintWidth_default="spread" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

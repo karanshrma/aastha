@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "673107479317",
+    "firebase_url": "https://aastha-groups-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aastha-groups",
+    "storage_bucket": "aastha-groups.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673107479317:android:c9eb8370b95001fd62371c",
+        "android_client_info": {
+          "package_name": "com.aasthagroups.aasthagroup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZzS6rxwnPD_1_s5hG9yWNv8mTRkZ-QBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673107479317:android:faf6e9ec8bc6467662371c",
+        "android_client_info": {
+          "package_name": "com.example.aastha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZzS6rxwnPD_1_s5hG9yWNv8mTRkZ-QBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
